@@ -1,0 +1,218 @@
+.berkshire-swash-regular {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.yellowtail-regular {
+  font-family: "Yellowtail", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.allura-regular {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.sofia-regular {
+  font-family: "Sofia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+p  {
+    margin-top: 10px
+}
+
+h1 {
+    color:#f5b9de;
+    font-size: 50px;
+    text-align: center;
+    font-family:"";
+}
+.Ltop {
+    display: inline-block;
+   color:#f5b9de;
+   vertical-align: middle;
+   width:100px;
+}
+
+body {
+ background-color:#1c1d21;
+ margin-left:0px;
+    
+ 
+}
+
+image {
+    width:400px;
+}
+.Lsos {
+    text-align: left;
+    margin-right:30px;
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color:black;
+  padding:0px;
+  margin: 0px;
+  overflow: hidden;
+  display:flex;
+  flex-direction:row;
+  text-align: center;
+  justify-content: center;
+}
+.navbar a {
+    color:#f5b9de;
+    text-decoration:none;
+    padding:15px;
+    display:block;
+    text-align:center;
+}
+.navbar a:hover {
+    background-color:darkslategray;
+}
+.navbar li {
+    float: center;
+    text-align: center;
+    
+}
+.dropdown{
+    display:inline-block;
+}
+.dropdown button{
+    background-color:black;
+    color:#f5b9de;
+    padding:10px 15px;
+    border:none;
+    cursor:pointer;
+}
+.dropdown a{
+    display:block;
+    color:#f5b9de;
+    text-decoration:none;
+    padding:10px 15px;
+}
+.dropdown .content{
+    display:none;
+    position:absolute;
+    background-color:#1c1d21;
+    min-width:100px;
+    box-shadow:2px 2px 5px hsla(0,0%,0%,0.8);
+    
+}
+.dropdown:hover .content{
+    display:block;
+}
+.dropdown: hover button{
+    background-color:darkslategray;
+}
+
+p{
+ color:#f5b9de;     
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display:inline-block
+}
+
+.Hpp {
+    color:#f5b9de;
+    text-align: center
+    
+}
+.Hpi{
+    /*display:inline-block*/
+    text-align: center
+    
+}
+
+.H2S {
+    color:#f5b9de;
+    margin-top: auto;
+    font-size: 100px;
+}
+
+.App {
+    color:#f5b9de;
+}
+h3 {
+    color:#f5b9de;
+    margin-top: auto;
+}
+    
+.TF{
+  text-align: right;
+}
+.PTS{
+  text-align: right;  
+}
+.SS{
+  text-align: right;    
+}
+
+.H2T{
+    color:#f5b9de; 
+}
+.E {
+   text-align: right; 
+}
+.H2Ts{
+    color:#f5b9de; 
+}
+.Tpp{
+  color:#f5b9de;   
+}
+.Allcontent{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+}
+.app{
+    color:#1c1d21;
+    font-size:10px;
+}
+.MBGI{
+    background-image: url(images/Ruanmei5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background size:cover;
+    padding:150px;
+}
+.TACD{
+    text-align:center;
+}
+
+.Tph{
+  color:#f5b9de;  
+}
+
+
+.TPI{
+width:100px;
+
+}
+
+.column {
+  float: left;
+  width:25%;
+}
+
+.F2PI::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*(Header 3 Team page)*/
+.H3TP{
+   color:#f5b9de; 
+   margin-top: 25px;
+}
