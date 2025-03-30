@@ -1,3 +1,4 @@
+/*Fonts*/
 .berkshire-swash-regular {
   font-family: "Berkshire Swash", serif;
   font-weight: 400;
@@ -23,16 +24,21 @@
   font-weight: 400;
   font-style: normal;
 }
-p  {
-    margin-top: 10px
+.didact-gothic-regular {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-h1 {
+
+/*Header class cause i got lazy*/
+.Q {
     color:#f5b9de;
     font-size: 50px;
     text-align: center;
     font-family:"";
 }
+/*Left Top*/
 .Ltop {
     display: inline-block;
    color:#f5b9de;
@@ -43,18 +49,19 @@ h1 {
 body {
  background-color:#1c1d21;
  margin-left:0px;
-    
+font-family:"Didact Gothic";    
  
 }
-
+/*Image sizes*/
 image {
     width:400px;
 }
+/*Left side of screen*/
 .Lsos {
     text-align: left;
     margin-right:30px;
 }
-
+/*Navbar things*/
 .navbar ul{
   list-style-type: none;
   background-color:black;
@@ -113,59 +120,71 @@ image {
 }
 
 p{
- color:#f5b9de;     
+ color:#f5b9de; 
+ margin-top: 10px
 }
 
+/*Other image things idk tbh*/
 img {
     max-width: 50%;
     height: auto;
     display:inline-block
 }
 
+/*Home page paragraph*/
 .Hpp {
     color:#f5b9de;
     text-align: center
     
 }
+/*Home page image*/
 .Hpi{
     /*display:inline-block*/
     text-align: center
     
 }
-
+/*Header to skills*/
 .H2S {
     color:#f5b9de;
     margin-top: auto;
     font-size: 100px;
 }
 
+/*Abilities Page paragraph*/
 .App {
     color:#f5b9de;
 }
+
 h3 {
     color:#f5b9de;
     margin-top: auto;
 }
-    
+
+/*Threading Fragrance*/
 .TF{
   text-align: right;
 }
+/*Petals To Stream*/
 .PTS{
   text-align: right;  
 }
+/*Silken Sernade*/
 .SS{
   text-align: right;    
 }
-
+/*Header to Team*/
 .H2T{
     color:#f5b9de; 
 }
+/*Eidielons*/
 .E {
    text-align: right; 
 }
+/*Header to Traces*/
 .H2Ts{
     color:#f5b9de; 
 }
+/*Team page paragraph*/
 .Tpp{
   color:#f5b9de;   
 }
@@ -174,10 +193,12 @@ h3 {
     margin-right: auto;
     width:70%;
 }
+/*Ability Page paragraph*/
 .app{
     color:#1c1d21;
     font-size:10px;
 }
+/*Main background image*/
 .MBGI{
     background-image: url(images/Ruanmei5.png);
     background-repeat: no-repeat;
@@ -186,33 +207,56 @@ h3 {
     background size:cover;
     padding:150px;
 }
+/**/
 .TACD{
     text-align:center;
 }
-
+/*Team page header?*/
 .Tph{
   color:#f5b9de;  
 }
-
-
+/*Team page image*/
 .TPI{
 width:100px;
 
 }
-
+/*column*/
 .column {
   float: left;
   width:25%;
 }
-
+/*Free to play Image*/
 .F2PI::after {
   content: "";
   clear: both;
   display: table;
 }
-
 /*(Header 3 Team page)*/
 .H3TP{
    color:#f5b9de; 
    margin-top: 25px;
+   margin-bottom: 25px;
+}
+/*Sets page paragraph*/
+.Spp {
+ color:#f5b9de;
+}
+/*Sets page Image*/
+.SPI::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*column2*/
+.column2 {
+  float: left;
+  width:33.33%;
+}
+/*Infoforfun Page paragraph*/
+.Ipp {
+  color:#f5b9de;  
+}
+/*li*/
+li{
+  color:#f5b9de; 
 }
